@@ -1,0 +1,10 @@
+language: nodejs
+
+node_js:
+  - 6.10.2
+
+install:
+  - npm install
+
+script:
+  - npm run build
