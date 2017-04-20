@@ -1,0 +1,26 @@
+{
+  "name": "cloud-cdn",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "webpack --config mywebpack.config.js"
+  },
+  "description": "To explore:",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^2.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtvj/cloud-cdn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtvj/cloud-cdn/issues"
+  },
+  "homepage": "https://github.com/gtvj/cloud-cdn#readme"
+}
