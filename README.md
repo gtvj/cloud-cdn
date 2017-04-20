@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gtvj/cloud-cdn.svg?branch=master)](https://travis-ci.org/gtvj/cloud-cdn)
+
 # Purpose
 
 To explore: 
