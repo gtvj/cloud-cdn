@@ -1,3 +1,3 @@
 import jquery from 'jquery';
 
-console.log(typeof jquery);
+console.log('jquery is a ' + typeof jquery);
