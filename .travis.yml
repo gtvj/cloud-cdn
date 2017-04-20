@@ -1,10 +1,15 @@
 language: node_js
-
 node_js:
-  - "6"
-
+- '6'
 install:
-  - npm install
-
+- npm install
 script:
-  - npm run build
+- npm run build
+deploy:
+  provider: s3
+  access_key_id: AKIAIU4QQSDMYO5SHR4Q
+  secret_access_key:
+    secure: WGYMVBZnRHEGHDdAxZhki7af8obmXOEGDxkNjCJsxGMIBhW7QYEwvD+1jXDlKwn/SJ7ekWTHsDjVqTBr2UUiw4KZHDtXu6GU+NcbgjosHzZJ46l7pQLliTj9eemGnoN1C7fHtZOUfhc/ESjSmJ3W6Jg9WfpVnAYfp2URqr2ait9lE3GFYQKjj9rd8oCIaaUCPy0PfZOf2+MzHRKK4Sd4CXM8yzfVpZHnzMUghYA7+q+dQ0U4YKl/gHPp1bO4KC3TQkpnJt6k5I7TGzCt6lKeKypK2TBqYri/nIt+FNYlXSH87mUmAL+PcHJG/asVIvQgpjVTsiZqyGqjB2i8bXHAsJ+LcB+v0KSNgsDyy9u0kp5pt+N+RYX2N2cgQDpwAbHPya48ucvm9xRrguekGavHZ8paAfRHic5KyAc5MiJeFVrvw3RjUnhKuhTp7fOlTtchFIHGacd/m4usS6foNpof15kTLPlo4vHanpG0W6R3BtyS2515KGTg11FEaD3Q6pDiO5zzMuod/EIYHI2iG6Lv3F57coCqbYly5N7r9aDSvympdNHcR5/uju0ikXJ0kFT6l1tMl4HM0CAYpUv/dOpFO9XpOn3SldTOyyJx8NAdbrNXy6RKgHHQZFRGo5vMlzeW3Oki+zGupeHQH1pXg0+EsHo6kcPjGDO6BDPztwMCR34=
+  bucket: cloud-cdn
+  skip_cleanup: true
+  local_dir: dist

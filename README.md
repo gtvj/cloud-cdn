@@ -17,3 +17,11 @@ Follow the current [webpack installation instructions](https://webpack.js.org/gu
 ./node_modules/.bin/webpack --help # Shows a list of valid cli commands
 ```
 
+## Configuring Travis CI
+
+Travis CI configuration is provided in `.travis.yml`. Note that this includes the secret access key for S3 **but that this has been encrypted with the Travis command line tool:
+
+```bash
+travis encrypt --add deploy.secret_access_key
+```
+
