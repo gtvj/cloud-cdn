@@ -12,7 +12,7 @@ To explore using [webpack](https://webpack.github.io/), [Travis CI](https://trav
 
 ## webpack
 
-* Allows us to use ES2015 modules
+* Allows us to use ES2015 modules and (with the [babel-loader](https://webpack.js.org/loaders/babel-loader/)) broader ES2015 features
 * Provides the ability to compose specific bundles from modules
 
 This is beneficial because we can have bundles composed for specific needs but share common components. 
