@@ -2,7 +2,8 @@
   "name": "cloud-cdn",
   "version": "0.0.1",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "build-watch": "webpack -w"
   },
   "description": "To explore:",
   "main": "index.js",
