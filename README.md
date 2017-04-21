@@ -38,7 +38,8 @@ We are using S3 to store and serve the JavaScript that has been bundled by webpa
 * For **each of the files to be served** selecting 'Make public' from the bucket dashboard
 
 Notes: 
-* It's very easy to enable [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) for an S3 bucket. This could be very good for us if, for example, we decided to use Ajax to fetch secondary items (whether the footer image or our secondary items in the mega menu).
+* It's very easy to enable [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) for an S3 bucket. This could be very good for us if, for example, we decided to use Ajax to fetch secondary items (whether the footer image or our secondary items in the mega menu)
+* It is also very easy for use to configure this to edge our CDN files to different locations by creating an [AWS Cloudfront](https://aws.amazon.com/cloudfront/) distribution to reduce latency in HTTP requests. This also allows us to have fine-tuned control over caching behaviour 
 
 ## Using Travis
 
