@@ -34,7 +34,7 @@ We are using S3 to store and serve the JavaScript that has been bundled by webpa
 
 * Using IAM to create a user and group with the necessary policies (granting access to interact with S3)
 * Creating an S3 bucket and granting the permissions to our user
-* Enabling logging for the S3 bucket so that we can see what actions have taken place
+* Enabling logging for the S3 bucket so that we can see what actions have taken place (this has since been disabled because the bucket was swamped with log files)
 * For **each of the files to be served** selecting 'Make public' from the bucket dashboard
 
 Notes: 
